@@ -1,0 +1,211 @@
+﻿participante,acessou_copilot,sistema,criterio,nota_original,nota,exclusao_metodologica
+P01,True,NotebookLM,Didatica,5.0,5.0,False
+P01,True,NotebookLM,Praticidade,5.0,5.0,False
+P01,True,NotebookLM,Confiabilidade,4.0,4.0,False
+P01,True,NotebookLM,Completude,4.0,4.0,False
+P01,True,NotebookLM,Acessibilidade,4.0,4.0,False
+P01,True,GitHub Copilot,Didatica,5.0,5.0,False
+P01,True,GitHub Copilot,Praticidade,5.0,5.0,False
+P01,True,GitHub Copilot,Confiabilidade,5.0,5.0,False
+P01,True,GitHub Copilot,Completude,5.0,5.0,False
+P01,True,GitHub Copilot,Acessibilidade,5.0,5.0,False
+P01,True,Doctus AI,Didatica,5.0,5.0,False
+P01,True,Doctus AI,Praticidade,4.0,4.0,False
+P01,True,Doctus AI,Confiabilidade,4.0,4.0,False
+P01,True,Doctus AI,Completude,5.0,5.0,False
+P01,True,Doctus AI,Acessibilidade,5.0,5.0,False
+P02,True,NotebookLM,Didatica,4.0,4.0,False
+P02,True,NotebookLM,Praticidade,4.0,4.0,False
+P02,True,NotebookLM,Confiabilidade,3.0,3.0,False
+P02,True,NotebookLM,Completude,2.0,2.0,False
+P02,True,NotebookLM,Acessibilidade,2.0,2.0,False
+P02,True,GitHub Copilot,Didatica,5.0,5.0,False
+P02,True,GitHub Copilot,Praticidade,5.0,5.0,False
+P02,True,GitHub Copilot,Confiabilidade,5.0,5.0,False
+P02,True,GitHub Copilot,Completude,5.0,5.0,False
+P02,True,GitHub Copilot,Acessibilidade,4.0,4.0,False
+P02,True,Doctus AI,Didatica,5.0,5.0,False
+P02,True,Doctus AI,Praticidade,5.0,5.0,False
+P02,True,Doctus AI,Confiabilidade,4.0,4.0,False
+P02,True,Doctus AI,Completude,5.0,5.0,False
+P02,True,Doctus AI,Acessibilidade,4.0,4.0,False
+P03,True,NotebookLM,Didatica,5.0,5.0,False
+P03,True,NotebookLM,Praticidade,3.0,3.0,False
+P03,True,NotebookLM,Confiabilidade,5.0,5.0,False
+P03,True,NotebookLM,Completude,3.0,3.0,False
+P03,True,NotebookLM,Acessibilidade,5.0,5.0,False
+P03,True,GitHub Copilot,Didatica,5.0,5.0,False
+P03,True,GitHub Copilot,Praticidade,4.0,4.0,False
+P03,True,GitHub Copilot,Confiabilidade,5.0,5.0,False
+P03,True,GitHub Copilot,Completude,4.0,4.0,False
+P03,True,GitHub Copilot,Acessibilidade,5.0,5.0,False
+P03,True,Doctus AI,Didatica,5.0,5.0,False
+P03,True,Doctus AI,Praticidade,3.0,3.0,False
+P03,True,Doctus AI,Confiabilidade,5.0,5.0,False
+P03,True,Doctus AI,Completude,4.0,4.0,False
+P03,True,Doctus AI,Acessibilidade,4.0,4.0,False
+P04,True,NotebookLM,Didatica,2.0,2.0,False
+P04,True,NotebookLM,Praticidade,5.0,5.0,False
+P04,True,NotebookLM,Confiabilidade,5.0,5.0,False
+P04,True,NotebookLM,Completude,1.0,1.0,False
+P04,True,NotebookLM,Acessibilidade,5.0,5.0,False
+P04,True,GitHub Copilot,Didatica,5.0,5.0,False
+P04,True,GitHub Copilot,Praticidade,5.0,5.0,False
+P04,True,GitHub Copilot,Confiabilidade,4.0,4.0,False
+P04,True,GitHub Copilot,Completude,4.0,4.0,False
+P04,True,GitHub Copilot,Acessibilidade,1.0,1.0,False
+P04,True,Doctus AI,Didatica,5.0,5.0,False
+P04,True,Doctus AI,Praticidade,5.0,5.0,False
+P04,True,Doctus AI,Confiabilidade,5.0,5.0,False
+P04,True,Doctus AI,Completude,5.0,5.0,False
+P04,True,Doctus AI,Acessibilidade,5.0,5.0,False
+P05,True,NotebookLM,Didatica,5.0,5.0,False
+P05,True,NotebookLM,Praticidade,2.0,2.0,False
+P05,True,NotebookLM,Confiabilidade,5.0,5.0,False
+P05,True,NotebookLM,Completude,4.0,4.0,False
+P05,True,NotebookLM,Acessibilidade,5.0,5.0,False
+P05,True,GitHub Copilot,Didatica,3.0,3.0,False
+P05,True,GitHub Copilot,Praticidade,2.0,2.0,False
+P05,True,GitHub Copilot,Confiabilidade,2.0,2.0,False
+P05,True,GitHub Copilot,Completude,2.0,2.0,False
+P05,True,GitHub Copilot,Acessibilidade,4.0,4.0,False
+P05,True,Doctus AI,Didatica,5.0,5.0,False
+P05,True,Doctus AI,Praticidade,3.0,3.0,False
+P05,True,Doctus AI,Confiabilidade,5.0,5.0,False
+P05,True,Doctus AI,Completude,5.0,5.0,False
+P05,True,Doctus AI,Acessibilidade,5.0,5.0,False
+P06,True,NotebookLM,Didatica,5.0,5.0,False
+P06,True,NotebookLM,Praticidade,4.0,4.0,False
+P06,True,NotebookLM,Confiabilidade,4.0,4.0,False
+P06,True,NotebookLM,Completude,5.0,5.0,False
+P06,True,NotebookLM,Acessibilidade,5.0,5.0,False
+P06,True,GitHub Copilot,Didatica,5.0,5.0,False
+P06,True,GitHub Copilot,Praticidade,4.0,4.0,False
+P06,True,GitHub Copilot,Confiabilidade,4.0,4.0,False
+P06,True,GitHub Copilot,Completude,5.0,5.0,False
+P06,True,GitHub Copilot,Acessibilidade,2.0,2.0,False
+P06,True,Doctus AI,Didatica,5.0,5.0,False
+P06,True,Doctus AI,Praticidade,4.0,4.0,False
+P06,True,Doctus AI,Confiabilidade,4.0,4.0,False
+P06,True,Doctus AI,Completude,5.0,5.0,False
+P06,True,Doctus AI,Acessibilidade,5.0,5.0,False
+P07,False,NotebookLM,Didatica,5.0,5.0,False
+P07,False,NotebookLM,Praticidade,5.0,5.0,False
+P07,False,NotebookLM,Confiabilidade,5.0,5.0,False
+P07,False,NotebookLM,Completude,5.0,5.0,False
+P07,False,NotebookLM,Acessibilidade,5.0,5.0,False
+P07,False,GitHub Copilot,Didatica,5.0,,True
+P07,False,GitHub Copilot,Praticidade,5.0,,True
+P07,False,GitHub Copilot,Confiabilidade,5.0,,True
+P07,False,GitHub Copilot,Completude,5.0,,True
+P07,False,GitHub Copilot,Acessibilidade,5.0,5.0,False
+P07,False,Doctus AI,Didatica,5.0,5.0,False
+P07,False,Doctus AI,Praticidade,5.0,5.0,False
+P07,False,Doctus AI,Confiabilidade,5.0,5.0,False
+P07,False,Doctus AI,Completude,5.0,5.0,False
+P07,False,Doctus AI,Acessibilidade,5.0,5.0,False
+P08,False,NotebookLM,Didatica,4.0,4.0,False
+P08,False,NotebookLM,Praticidade,5.0,5.0,False
+P08,False,NotebookLM,Confiabilidade,4.0,4.0,False
+P08,False,NotebookLM,Completude,5.0,5.0,False
+P08,False,NotebookLM,Acessibilidade,4.0,4.0,False
+P08,False,GitHub Copilot,Didatica,4.0,,True
+P08,False,GitHub Copilot,Praticidade,5.0,,True
+P08,False,GitHub Copilot,Confiabilidade,5.0,,True
+P08,False,GitHub Copilot,Completude,5.0,,True
+P08,False,GitHub Copilot,Acessibilidade,3.0,3.0,False
+P08,False,Doctus AI,Didatica,5.0,5.0,False
+P08,False,Doctus AI,Praticidade,5.0,5.0,False
+P08,False,Doctus AI,Confiabilidade,5.0,5.0,False
+P08,False,Doctus AI,Completude,5.0,5.0,False
+P08,False,Doctus AI,Acessibilidade,5.0,5.0,False
+P09,True,NotebookLM,Didatica,3.0,3.0,False
+P09,True,NotebookLM,Praticidade,4.0,4.0,False
+P09,True,NotebookLM,Confiabilidade,4.0,4.0,False
+P09,True,NotebookLM,Completude,4.0,4.0,False
+P09,True,NotebookLM,Acessibilidade,5.0,5.0,False
+P09,True,GitHub Copilot,Didatica,4.0,4.0,False
+P09,True,GitHub Copilot,Praticidade,3.0,3.0,False
+P09,True,GitHub Copilot,Confiabilidade,4.0,4.0,False
+P09,True,GitHub Copilot,Completude,5.0,5.0,False
+P09,True,GitHub Copilot,Acessibilidade,4.0,4.0,False
+P09,True,Doctus AI,Didatica,3.0,3.0,False
+P09,True,Doctus AI,Praticidade,4.0,4.0,False
+P09,True,Doctus AI,Confiabilidade,4.0,4.0,False
+P09,True,Doctus AI,Completude,3.0,3.0,False
+P09,True,Doctus AI,Acessibilidade,3.0,3.0,False
+P10,False,NotebookLM,Didatica,4.0,4.0,False
+P10,False,NotebookLM,Praticidade,4.0,4.0,False
+P10,False,NotebookLM,Confiabilidade,5.0,5.0,False
+P10,False,NotebookLM,Completude,4.0,4.0,False
+P10,False,NotebookLM,Acessibilidade,4.0,4.0,False
+P10,False,GitHub Copilot,Didatica,5.0,,True
+P10,False,GitHub Copilot,Praticidade,5.0,,True
+P10,False,GitHub Copilot,Confiabilidade,5.0,,True
+P10,False,GitHub Copilot,Completude,5.0,,True
+P10,False,GitHub Copilot,Acessibilidade,5.0,5.0,False
+P10,False,Doctus AI,Didatica,4.0,4.0,False
+P10,False,Doctus AI,Praticidade,3.0,3.0,False
+P10,False,Doctus AI,Confiabilidade,3.0,3.0,False
+P10,False,Doctus AI,Completude,4.0,4.0,False
+P10,False,Doctus AI,Acessibilidade,5.0,5.0,False
+P11,False,NotebookLM,Didatica,4.0,4.0,False
+P11,False,NotebookLM,Praticidade,4.0,4.0,False
+P11,False,NotebookLM,Confiabilidade,4.0,4.0,False
+P11,False,NotebookLM,Completude,3.0,3.0,False
+P11,False,NotebookLM,Acessibilidade,4.0,4.0,False
+P11,False,GitHub Copilot,Didatica,3.0,,True
+P11,False,GitHub Copilot,Praticidade,5.0,,True
+P11,False,GitHub Copilot,Confiabilidade,4.0,,True
+P11,False,GitHub Copilot,Completude,4.0,,True
+P11,False,GitHub Copilot,Acessibilidade,4.0,4.0,False
+P11,False,Doctus AI,Didatica,3.0,3.0,False
+P11,False,Doctus AI,Praticidade,4.0,4.0,False
+P11,False,Doctus AI,Confiabilidade,4.0,4.0,False
+P11,False,Doctus AI,Completude,4.0,4.0,False
+P11,False,Doctus AI,Acessibilidade,3.0,3.0,False
+P12,False,NotebookLM,Didatica,4.0,4.0,False
+P12,False,NotebookLM,Praticidade,4.0,4.0,False
+P12,False,NotebookLM,Confiabilidade,5.0,5.0,False
+P12,False,NotebookLM,Completude,5.0,5.0,False
+P12,False,NotebookLM,Acessibilidade,5.0,5.0,False
+P12,False,GitHub Copilot,Didatica,3.0,,True
+P12,False,GitHub Copilot,Praticidade,3.0,,True
+P12,False,GitHub Copilot,Confiabilidade,3.0,,True
+P12,False,GitHub Copilot,Completude,3.0,,True
+P12,False,GitHub Copilot,Acessibilidade,3.0,3.0,False
+P12,False,Doctus AI,Didatica,4.0,4.0,False
+P12,False,Doctus AI,Praticidade,5.0,5.0,False
+P12,False,Doctus AI,Confiabilidade,5.0,5.0,False
+P12,False,Doctus AI,Completude,5.0,5.0,False
+P12,False,Doctus AI,Acessibilidade,5.0,5.0,False
+P13,True,NotebookLM,Didatica,4.0,4.0,False
+P13,True,NotebookLM,Praticidade,5.0,5.0,False
+P13,True,NotebookLM,Confiabilidade,4.0,4.0,False
+P13,True,NotebookLM,Completude,5.0,5.0,False
+P13,True,NotebookLM,Acessibilidade,4.0,4.0,False
+P13,True,GitHub Copilot,Didatica,3.0,3.0,False
+P13,True,GitHub Copilot,Praticidade,4.0,4.0,False
+P13,True,GitHub Copilot,Confiabilidade,3.0,3.0,False
+P13,True,GitHub Copilot,Completude,3.0,3.0,False
+P13,True,GitHub Copilot,Acessibilidade,2.0,2.0,False
+P13,True,Doctus AI,Didatica,4.0,4.0,False
+P13,True,Doctus AI,Praticidade,5.0,5.0,False
+P13,True,Doctus AI,Confiabilidade,5.0,5.0,False
+P13,True,Doctus AI,Completude,5.0,5.0,False
+P13,True,Doctus AI,Acessibilidade,5.0,5.0,False
+P14,False,NotebookLM,Didatica,4.0,4.0,False
+P14,False,NotebookLM,Praticidade,5.0,5.0,False
+P14,False,NotebookLM,Confiabilidade,5.0,5.0,False
+P14,False,NotebookLM,Completude,4.0,4.0,False
+P14,False,NotebookLM,Acessibilidade,5.0,5.0,False
+P14,False,GitHub Copilot,Didatica,1.0,,True
+P14,False,GitHub Copilot,Praticidade,1.0,,True
+P14,False,GitHub Copilot,Confiabilidade,1.0,,True
+P14,False,GitHub Copilot,Completude,1.0,,True
+P14,False,GitHub Copilot,Acessibilidade,1.0,1.0,False
+P14,False,Doctus AI,Didatica,4.0,4.0,False
+P14,False,Doctus AI,Praticidade,5.0,5.0,False
+P14,False,Doctus AI,Confiabilidade,5.0,5.0,False
+P14,False,Doctus AI,Completude,5.0,5.0,False
+P14,False,Doctus AI,Acessibilidade,5.0,5.0,False
