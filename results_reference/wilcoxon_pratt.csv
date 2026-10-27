@@ -1,0 +1,16 @@
+﻿criterio,sistema_1,sistema_2,estatistica_wilcoxon,p_bruto,zero_method,direcao_rbc,observacao,rbc,postos_positivos,postos_negativos,n_pares_validos,n_diferencas_nulas,n_diferencas_nao_nulas,p_holm,significativo_holm_0_05
+Didatica,Doctus AI,GitHub Copilot,6.5,0.75,pratt,Doctus AI > GitHub Copilot,,0.5,4.5,1.5,8,5,3,1.0,False
+Didatica,Doctus AI,NotebookLM,12.0,0.2994968637066191,pratt,Doctus AI > NotebookLM,,0.6,8.0,2.0,14,10,4,0.8984905911198573,False
+Didatica,GitHub Copilot,NotebookLM,12.0,0.75,pratt,GitHub Copilot > NotebookLM,,0.2,9.0,6.0,8,3,5,1.0,False
+Praticidade,Doctus AI,GitHub Copilot,12.0,1.0,pratt,Doctus AI > GitHub Copilot,,0.2,9.0,6.0,8,3,5,1.0,False
+Praticidade,Doctus AI,NotebookLM,24.0,0.6547208460185769,pratt,Doctus AI > NotebookLM,,0.2,9.0,6.0,14,9,5,1.0,False
+Praticidade,GitHub Copilot,NotebookLM,13.0,1.0,pratt,Sem direcao,,0.0,5.0,5.0,8,4,4,1.0,False
+Confiabilidade,Doctus AI,GitHub Copilot,10.0,0.5625,pratt,Doctus AI > GitHub Copilot,,0.4666666666666667,11.0,4.0,8,3,5,1.0,False
+Confiabilidade,Doctus AI,NotebookLM,14.0,0.38000039192585167,pratt,Doctus AI > NotebookLM,,0.2,6.0,4.0,14,10,4,1.0,False
+Confiabilidade,GitHub Copilot,NotebookLM,12.0,0.75,pratt,NotebookLM > GitHub Copilot,,-0.2,6.0,9.0,8,3,5,1.0,False
+Completude,Doctus AI,GitHub Copilot,6.5,0.5,pratt,Doctus AI > GitHub Copilot,,0.5,7.5,2.5,8,4,4,0.78125,False
+Completude,Doctus AI,NotebookLM,9.5,0.03085911162943402,pratt,Doctus AI > NotebookLM,,0.8055555555555556,32.5,3.5,14,6,8,0.09257733488830205,False
+Completude,GitHub Copilot,NotebookLM,11.0,0.390625,pratt,GitHub Copilot > NotebookLM,,0.35714285714285715,19.0,9.0,8,1,7,0.78125,False
+Acessibilidade,Doctus AI,GitHub Copilot,19.5,0.07341775136006244,pratt,Doctus AI > GitHub Copilot,,0.7272727272727273,47.5,7.5,14,4,10,0.2202532540801873,False
+Acessibilidade,Doctus AI,NotebookLM,32.5,0.5278883711500746,pratt,Doctus AI > NotebookLM,,0.19444444444444445,21.5,14.5,14,6,8,0.5278883711500746,False
+Acessibilidade,GitHub Copilot,NotebookLM,22.0,0.08023217793966694,pratt,NotebookLM > GitHub Copilot,,-0.6060606060606061,13.0,53.0,14,3,11,0.2202532540801873,False

@@ -1,0 +1,6 @@
+﻿criterio,n_casos_completos,Q,p_assintotico,W_kendall,magnitude_W,observacao
+Didatica,8,1.2,0.5488116360940265,0.075,Trivial,p assintotico; cautela em amostra pequena
+Praticidade,8,0.3333333333333333,0.8464817248906141,0.020833333333333332,Trivial,p assintotico; cautela em amostra pequena
+Confiabilidade,8,0.8235294117647058,0.6624801353939263,0.051470588235294115,Trivial,p assintotico; cautela em amostra pequena
+Completude,8,3.5833333333333335,0.16668213447794653,0.22395833333333334,Pequeno,p assintotico; cautela em amostra pequena
+Acessibilidade,14,3.0,0.22313016014842982,0.10714285714285714,Pequeno,p assintotico; cautela em amostra pequena

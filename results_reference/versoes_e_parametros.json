@@ -1,0 +1,22 @@
+{
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "pandas": "3.0.6",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "statsmodels": "0.15.0",
+  "input_file": "base_analise_anonimizada.csv",
+  "input_sha256": "4f613bdb748773683056a51642ba49c70856bfebefda1f2691459206a4128da0",
+  "wilcoxon_zero_methods": [
+    "wilcox",
+    "pratt"
+  ],
+  "wilcoxon_p_method": "auto",
+  "wilcoxon_correction": false,
+  "wilcoxon_alternative": "two-sided",
+  "holm_family": "tres contrastes por criterio",
+  "rbc": "postos das diferencas nao nulas, igual nas duas analises",
+  "quartis": "interpolacao linear do pandas",
+  "desvio_padrao_ddof": 1,
+  "nota_magnitude_W": "Rotulos legados preservados do script original; nao validam limites bibliograficos."
+}

@@ -1,0 +1,16 @@
+﻿criterio,sistema,n_linhas,n_notas_originais,n_exclusoes_metodologicas,n_notas_validas_analise
+Acessibilidade,Doctus AI,14,14,0,14
+Acessibilidade,GitHub Copilot,14,14,0,14
+Acessibilidade,NotebookLM,14,14,0,14
+Completude,Doctus AI,14,14,0,14
+Completude,GitHub Copilot,14,14,6,8
+Completude,NotebookLM,14,14,0,14
+Confiabilidade,Doctus AI,14,14,0,14
+Confiabilidade,GitHub Copilot,14,14,6,8
+Confiabilidade,NotebookLM,14,14,0,14
+Didatica,Doctus AI,14,14,0,14
+Didatica,GitHub Copilot,14,14,6,8
+Didatica,NotebookLM,14,14,0,14
+Praticidade,Doctus AI,14,14,0,14
+Praticidade,GitHub Copilot,14,14,6,8
+Praticidade,NotebookLM,14,14,0,14
