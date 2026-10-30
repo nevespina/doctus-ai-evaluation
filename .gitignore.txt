@@ -1,0 +1,37 @@
+# Ambientes virtuais
+.venv/
+.venv-repro/
+venv/
+env/
+
+# Cache e arquivos temporarios do Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Dados privados e exportacoes identificaveis
+private_data/
+respostas_google_forms.csv
+perfil_anonimizado.csv
+Pesquisa*respostas*.xlsx
+
+# Credenciais locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Saidas locais: preservar results_reference no repositorio
+/results_reproduced/
+/outputs/
+/public_validation/
+
+# Arquivos temporarios do sistema e editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.log
