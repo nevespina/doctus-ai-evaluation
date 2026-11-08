@@ -1,9 +1,27 @@
-"""Analise publica do estudo Doctus AI.
+"""
+Análise estatística reproduzível da avaliação empírica do Doctus AI.
 
-Entrada: CSV longo com participante, acessou_copilot, sistema, criterio,
-nota_original. Colunas nota e exclusao_metodologica, se presentes, sao
-conferidas contra a regra de exclusao. Nenhum dado e simulado ou imputado.
-Uso: python analysis_public.py --input data/ratings_anonymized.csv
+Entrada:
+    base_analise_anonimizada.csv, em formato longo, com as colunas:
+    participante, acessou_copilot, sistema, criterio e nota_original.
+
+    Quando presentes, as colunas nota e exclusao_metodologica são
+    conferidas em relação à regra de exclusão.
+
+Execução:
+    A partir da raiz do repositório, com as dependências instaladas:
+
+    python analysis_public.py --input base_analise_anonimizada.csv --output results_reproduced
+
+Saídas:
+    Estatísticas descritivas, Friedman, Kendall, Wilcoxon com Holm,
+    correlação bisserial por postos e análise de sensibilidade Pratt,
+    além dos registros de auditoria e do ambiente computacional.
+
+Observações:
+    Não utiliza o formulário original com informações identificáveis.
+    Não realiza imputação de valores ausentes.
+    Uma única execução produz as análises Wilcox e Pratt.
 """
 from __future__ import annotations
 import argparse
