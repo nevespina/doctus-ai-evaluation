@@ -1,4 +1,4 @@
-# Doctus AI: avaliação empírica e reprodução das análises
+# Doctus AI: Desenvolvimento e Avaliação de um Agente de Inteligência Artificial para o Ensino Superior
 
 Materiais de apoio ao artigo **Doctus AI: Um Agente de Inteligência Artificial para Ensino Superior**, de João Pedro Pina Neves e Carlo Kleber da Silva Rodrigues, Universidade Federal do ABC.
 
@@ -250,7 +250,7 @@ O PDF de referência só deve ser redistribuído quando houver permissão; caso 
 
 **Autores do estudo:** João Pedro Pina Neves e Carlo Kleber da Silva Rodrigues, Universidade Federal do ABC.
 
-**Título do manuscrito:** Doctus AI: Um Agente de Inteligência Artificial para Ensino Superior.
+**Título do manuscrito:** Doctus AI: Desenvolvimento e Avaliação de um Agente de Inteligência Artificial para o Ensino Superior
 
 Os dados editoriais definitivos, o DOI do artigo e o endereço permanente da versão do repositório devem ser acrescentados quando disponíveis. Não atribua ao manuscrito um DOI ou ano de publicação ainda não confirmado.
 
