@@ -1,22 +1,26 @@
 # Doctus AI: Desenvolvimento e Avaliação de um Agente de Inteligência Artificial para o Ensino Superior
 
-Materiais de apoio ao artigo **Doctus AI: Um Agente de Inteligência Artificial para Ensino Superior**, de João Pedro Pina Neves e Carlo Kleber da Silva Rodrigues, Universidade Federal do ABC.
+Materiais de apoio ao artigo **Doctus AI: Desenvolvimento e Avaliação de um Agente de Inteligência Artificial para o Ensino Superior**, de João Pedro Pina Neves e Carlo Kleber da Silva Rodrigues, Universidade Federal do ABC.
 
-Este projeto permite reproduzir a preparação da base analítica e os cálculos estatísticos da avaliação inicial do Doctus AI, comparado ao GitHub Copilot e ao NotebookLM.
+Este repositório disponibiliza dados, scripts e documentação para reproduzir a preparação da base analítica e os cálculos estatísticos da avaliação inicial do Doctus AI, comparado ao GitHub Copilot e ao NotebookLM.
 
 > **Escopo:** reproduzir os cálculos sobre as avaliações coletadas não significa reproduzir as respostas dos sistemas generativos, demonstrar ganhos de aprendizagem ou estabelecer superioridade entre as ferramentas. O código-fonte do protótipo Doctus AI não integra este pacote de análise.
 
 ## 1. Organização dos arquivos
 
-A organização abaixo corresponde ao núcleo computacional. Os nomes e caminhos são usados nos comandos deste documento.
-
 ```text
 doctus-ai-evaluation/
 ├── README.md
+├── data_dictionary.md
 ├── analysis_public.py
 ├── requirements.txt
 ├── base_analise_anonimizada.csv
 ├── .gitignore
+├── materials/
+│   ├── protocolo_experimental.md
+│   ├── questionario.md
+│   ├── material_de_referencia.md
+│   └── O Algoritmo de Enxame de Vagalumes (Firefly Algorithm).pdf
 ├── results_reference/
 │   ├── auditoria_exclusoes_resumo.csv
 │   ├── base_analise_verificada.csv
@@ -30,18 +34,46 @@ doctus-ai-evaluation/
 ```
 
 - `base_analise_anonimizada.csv`: entrada pública, em formato longo, sem identificadores pessoais diretos.
-- `analysis_public.py`: valida a entrada, reaplica as exclusões e executa as duas análises pareadas.
+- `data_dictionary.md`: definição das variáveis, valores permitidos e regras de preparação.
+- `analysis_public.py`: valida a entrada, reaplica as exclusões e executa as análises principal e de sensibilidade.
 - `requirements.txt`: versões fixadas das quatro bibliotecas diretamente utilizadas.
-- `results_reference/`: saídas da execução validada, para comparação; não devem ser sobrescritas.
+- `materials/`: protocolo, questionário e documentação do material de referência, incluindo o PDF utilizado.
+- `results_reference/`: saídas da execução validada, destinadas à comparação; não devem ser sobrescritas.
 - `results_reproduced/`: saídas de uma nova execução.
 
 A pasta do ambiente virtual não deve ser incluída no repositório.
 
-## 2. Estudo e tratamento dos dados
+## 2. Estudo e procedimento experimental
 
 A coleta ocorreu de **13 de janeiro a 23 de fevereiro de 2026**, com **14 estudantes de graduação**. A tarefa combinou explicação conceitual e implementação em Python de uma função relacionada ao Algoritmo de Vagalumes (*Firefly Algorithm*).
 
-O mesmo PDF de referência foi anexado diretamente à conversa nos três sistemas. O protocolo e o instrumento originais devem ser consultados para reproduzir a aplicação da avaliação; este README documenta principalmente a reprodução computacional.
+### Material e apresentação da tarefa
+
+O mesmo PDF foi anexado diretamente à conversa no NotebookLM, no GitHub Copilot e no Doctus AI. Não foi utilizada a transcrição manual do conteúdo em substituição ao anexo.
+
+O material didático, intitulado **O Algoritmo de Enxame de Vagalumes (Firefly Algorithm)**, foi adaptado por João Pedro Pina Neves em janeiro de 2026. Sua procedência e as fontes utilizadas são descritas em `materials/material_de_referencia.md`.
+
+A anexação do mesmo documento não implica que os três sistemas tenham utilizado mecanismos internos idênticos para processá-lo.
+
+### Ordem e orientação de uso
+
+A ordem orientada de utilização seguiu a sequência do formulário:
+
+1. NotebookLM;
+2. GitHub Copilot;
+3. Doctus AI.
+
+A sequência foi fixa, sem randomização ou contrabalançamento. Os participantes foram instruídos a utilizar apenas o prompt padronizado, sem interações adicionais.
+
+Essa informação descreve a orientação fornecida, não uma verificação independente de todas as interações realizadas.
+
+### Modelos, versões e configurações dos sistemas
+
+Não há registros suficientes para identificar com segurança os modelos, suas versões e as configurações detalhadas utilizados nos três sistemas durante a coleta.
+
+Essas informações não foram reconstruídas retrospectivamente a partir das versões atuais das ferramentas. Sua ausência limita a reprodução das condições de geração das respostas, mas não impede a reprodução dos cálculos sobre os dados disponibilizados.
+
+### Critérios avaliados
 
 Foram avaliadas percepções de:
 
@@ -52,6 +84,8 @@ Foram avaliadas percepções de:
 5. Acessibilidade.
 
 As notas variam de 1 a 5. Os critérios representam percepções, não medidas objetivas de correção do código ou aprendizagem.
+
+O protocolo e o instrumento estão disponíveis em `materials/`. O presente README concentra-se na reprodução computacional.
 
 ### Exclusões
 
@@ -85,11 +119,13 @@ A base contém **210 linhas**: 14 participantes × três sistemas × cinco crit�
 
 As notas originais invalidadas são mantidas apenas para rastrear a transformação; não entram nos testes. Um campo vazio em `nota` não representa zero.
 
-O script recalcula `nota` e `exclusao_metodologica` a partir de `nota_original` e da regra de acesso. Quando essas colunas já estão presentes, confere se correspondem à regra. Também verifica duplicatas, categorias, notas e a estrutura de 15 linhas por participante.
+O script recalcula `nota` e `exclusao_metodologica` a partir de `nota_original` e da regra de acesso. Quando essas colunas já estão presentes, confere sua correspondência com a regra. Também verifica duplicatas, categorias, notas e a estrutura de 15 linhas por participante.
+
+Consulte `data_dictionary.md` para as definições completas.
 
 ## 4. Ambiente validado
 
-A reprodução da análise principal foi conferida no seguinte ambiente:
+A reprodução foi conferida no seguinte ambiente:
 
 - Windows 11;
 - Python **3.14.0**;
@@ -98,7 +134,7 @@ A reprodução da análise principal foi conferida no seguinte ambiente:
 - SciPy **1.18.1**;
 - statsmodels **0.15.0**.
 
-O arquivo `requirements.txt` deve conter:
+O arquivo `requirements.txt` contém:
 
 ```text
 pandas==3.0.6
@@ -109,7 +145,7 @@ statsmodels==0.15.0
 
 Essas versões foram registradas na execução validada. Outros ambientes não foram validados. Em particular, a opção `method="auto"` do Wilcoxon pode produzir valores de p diferentes entre versões do SciPy. Não substitua silenciosamente as versões fixadas.
 
-O arquivo fixa as dependências diretas; não é um bloqueio completo de todas as dependências transitivas. Se um `requirements-lock.txt` for disponibilizado, ele deve corresponder ao ambiente efetivamente validado.
+O arquivo fixa as dependências diretas; não é um bloqueio completo de todas as dependências transitivas. Caso seja utilizado um `requirements-lock.txt`, ele deve corresponder ao ambiente efetivamente validado.
 
 ## 5. Instalação e execução no Windows
 
@@ -168,17 +204,21 @@ Não envie `.venv-repro` ao GitHub. O ambiente deve ser reconstruído a partir d
 
 ### Descritivas
 
-Número de observações válidas, mediana, primeiro e terceiro quartis, intervalo interquartil, média e desvio padrão amostral. Os quartis usam a interpolação linear padrão do pandas e o desvio padrão usa `ddof=1`.
+Número de observações válidas, mediana, primeiro e terceiro quartis, intervalo interquartil, média e desvio padrão amostral.
+
+Os quartis usam a interpolação linear padrão do pandas e o desvio padrão usa `ddof=1`.
 
 ### Friedman e Kendall
 
-O teste de Friedman é executado por critério, somente com casos completos, com correção para empates da implementação do SciPy. O valor de p é assintótico. O coeficiente de Kendall é calculado por:
+O teste de Friedman é executado por critério, somente com casos completos, com correção para empates da implementação do SciPy. O valor de p é assintótico.
+
+O coeficiente de Kendall é calculado por:
 
 ```text
 W = Q / [N × (k − 1)]
 ```
 
-O arquivo `friedman.csv` conserva a coluna legada `magnitude_W` do script original. Seus rótulos não constituem validação bibliográfica dos limites e não são necessários para reproduzir Q, p ou W.
+O arquivo `friedman.csv` conserva a coluna legada `magnitude_W` do script original. Seus rótulos não constituem validação bibliográfica dos limites e não são necessários para reproduzir Q, p ou W. A interpretação no artigo utiliza os valores numéricos, sem categorias fixas.
 
 ### Wilcoxon, Holm e efeito pareado
 
@@ -197,9 +237,13 @@ RBC = (postos positivos − postos negativos)
       / (postos positivos + postos negativos)
 ```
 
-Seu sinal refere-se a `sistema_1 − sistema_2`. A RBC usa a mesma convenção nas duas análises e, portanto, permanece igual entre Wilcox e Pratt. As colunas `postos_positivos` e `postos_negativos` referem-se ao cálculo da RBC, não necessariamente aos postos usados na estatística Pratt.
+Seu sinal refere-se a `sistema_1 − sistema_2`. A RBC usa a mesma convenção nas duas análises e, portanto, permanece igual entre Wilcox e Pratt.
 
-O script registra pares válidos, diferenças nulas e diferenças não nulas. A RBC não representa a proporção de participantes que preferiu um sistema. Quando todos os pares são iguais, o script adota estatística 0, p igual a 1 e RBC igual a 0 como convenção explícita.
+As colunas `postos_positivos` e `postos_negativos` referem-se ao cálculo da RBC, não necessariamente aos postos usados na estatística Pratt.
+
+O script registra pares válidos, diferenças nulas e diferenças não nulas. A RBC não representa a proporção de participantes que preferiu um sistema.
+
+Quando todos os pares são iguais, o script adota estatística 0, p igual a 1 e RBC igual a 0 como convenção explícita.
 
 ## 7. Saídas e verificação
 
@@ -220,9 +264,11 @@ O JSON registra versões, parâmetros e a assinatura SHA-256 do arquivo de entra
 
 O arquivo principal `wilcoxon_holm_rbc.csv`, gerado a partir da base pública no ambiente documentado, foi comparado ao arquivo original: as **15 linhas e 17 colunas coincidiram exatamente nos dados lidos**, sem tolerância numérica.
 
-Também foram conferidos os valores de Friedman e as medianas apresentados no manuscrito, a consistência das exclusões, os ajustes de Holm e o cálculo das RBCs. Nenhuma das 15 comparações pareadas apresentou significância após Holm, tanto com Wilcox quanto com Pratt.
+Também foram conferidos os valores de Friedman e as medianas apresentados no manuscrito, a consistência das exclusões, os ajustes de Holm e o cálculo das RBCs.
 
-Para Pratt, a referência deste pacote é a nova execução no ambiente documentado, não as saídas preliminares produzidas em outro ambiente.
+Nenhuma das 15 comparações pareadas apresentou significância após Holm, tanto com Wilcox quanto com Pratt.
+
+Para Pratt, a referência deste repositório é a execução no ambiente documentado, não as saídas preliminares produzidas em outro ambiente.
 
 O registro JSON de uma nova execução pode diferir por sistema operacional, versão do Python, nome ou assinatura do arquivo de entrada. Compare os resultados estatísticos e os parâmetros, não a identidade textual de todos os arquivos.
 
@@ -230,7 +276,16 @@ O registro JSON de uma nova execução pode diferir por sistema operacional, ver
 
 Avisos de amostra pequena não devem ser ocultados. A reprodução dos cálculos não elimina as limitações de amostra, seleção dos participantes, empates ou aproximações estatísticas discutidas no artigo.
 
-## 8. Privacidade e materiais experimentais
+## 8. Materiais experimentais e privacidade
+
+A pasta `materials/` contém:
+
+- `protocolo_experimental.md`: procedimento de aplicação, tarefa e condições experimentais;
+- `questionario.md`: documentação das perguntas e escalas do instrumento, com indicação dos limites da fonte utilizada para sua transcrição;
+- `material_de_referencia.md`: identificação, procedência e versão do material didático;
+- o PDF de referência utilizado no experimento.
+
+A documentação distingue o material efetivamente utilizado de eventuais revisões posteriores. Alterações futuras no PDF devem ser identificadas como novas versões, sem substituir silenciosamente a cópia experimental.
 
 Não devem ser publicados neste projeto:
 
@@ -240,18 +295,22 @@ Não devem ser publicados neste projeto:
 - comentários livres identificáveis;
 - credenciais, chaves de API, arquivos `.env` ou dados de serviços em nuvem.
 
-A base pública utiliza identificadores codificados e não inclui essas informações. Isso não constitui garantia absoluta de anonimato: sua publicação depende da revisão dos autores e das condições de consentimento.
+A base pública utiliza identificadores codificados e não inclui essas informações. A retirada de identificadores diretos não constitui garantia absoluta de anonimato. O compartilhamento deve observar as condições de consentimento e a revisão dos responsáveis pela pesquisa.
 
-O instrumento original, o protocolo completo e a identificação bibliográfica do PDF experimental devem ser adicionados como materiais complementares antes de considerar completa a documentação experimental. Este README não substitui esses documentos nem declara que já estão disponíveis.
-
-O PDF de referência só deve ser redistribuído quando houver permissão; caso contrário, disponibilize sua referência e o endereço de acesso autorizado.
-
-## 9. Autoria, citação e condições de uso
+## 9. Autoria e citação
 
 **Autores do estudo:** João Pedro Pina Neves e Carlo Kleber da Silva Rodrigues, Universidade Federal do ABC.
 
-**Título do manuscrito:** Doctus AI: Desenvolvimento e Avaliação de um Agente de Inteligência Artificial para o Ensino Superior
+**Título do manuscrito:** Doctus AI: Desenvolvimento e Avaliação de um Agente de Inteligência Artificial para o Ensino Superior.
 
-Os dados editoriais definitivos, o DOI do artigo e o endereço permanente da versão do repositório devem ser acrescentados quando disponíveis. Não atribua ao manuscrito um DOI ou ano de publicação ainda não confirmado.
+Os dados editoriais definitivos, o DOI do artigo e o endereço permanente da versão do repositório devem ser acrescentados quando disponíveis. Não se atribui ao manuscrito um DOI ou ano de publicação ainda não confirmado.
 
-Este README não concede, por si só, uma licença de reutilização. As condições de uso do código e dos dados devem ser definidas pelos autores em arquivos de licença apropriados antes da divulgação pública. A licença do artigo não deve ser presumida como licença automática de todos os materiais deste projeto.
+## 10. Condições de uso e direitos de terceiros
+
+Este README não concede, por si só, uma licença de reutilização. As condições de uso dos scripts, dados e materiais devem ser estabelecidas pelos responsáveis em arquivos de licença apropriados.
+
+A licença do artigo não deve ser presumida como licença automática de todos os materiais deste repositório.
+
+O material didático foi adaptado por João Pedro Pina Neves a partir de fontes identificadas em `materials/material_de_referencia.md`. Essa identificação não transfere direitos sobre as publicações utilizadas como fontes nem autoriza automaticamente sua redistribuição.
+
+A definição das licenças e a confirmação das condições de redistribuição do PDF constituem uma etapa documental separada. Nenhuma autorização de terceiros é presumida neste README.
