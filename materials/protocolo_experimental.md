@@ -33,7 +33,7 @@ A padronização do anexo não implica processamento interno idêntico pelos sis
 
 A versão atualmente apresentada no manuscrito é:
 
-> Explique didaticamente por que a atratividade diminui com a distância e Forneça o código Python implementando a função de Atratividade (beta) apresentada no texto.
+> Explique didaticamente por que a atratividade diminui com a distância e Forneça o código Python implementando a função de Atratividade (beta).
 
 ## Procedimento
 
@@ -42,7 +42,7 @@ A versão atualmente apresentada no manuscrito é:
 3. Inserção do comando padronizado e interação com o sistema, quando o acesso foi concluído.
 4. Registro das percepções em formulário eletrônico, segundo os cinco critérios descritos abaixo.
 
-As interfaces e condições próprias de acesso, autenticação e configuração foram preservadas. Não houve controle da ordem de utilização nem repetições sistemáticas, conforme as limitações descritas no manuscrito.
+As interfaces e condições próprias de acesso, autenticação e configuração foram preservadas. Os participantes foram orientados a seguir a sequência NotebookLM → GitHub Copilot → Doctus AI, sem randomização ou contrabalançamento.
 
 O número exato de mensagens adicionais, a duração das sessões e as configurações detalhadas dos sistemas não estão documentados nos materiais fornecidos para este arquivo. Não se presume que tenham sido iguais.
 
