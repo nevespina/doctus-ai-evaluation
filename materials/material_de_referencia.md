@@ -70,23 +70,29 @@ O arquivo está organizado no seguinte caminho:
 materials/O Algoritmo de Enxame de Vagalumes (Firefly Algorithm).pdf
 ```
 
-## 6. Autorização de disponibilização e redistribuição
+## 6. Disponibilização, redistribuição e condições de reutilização
+
+### 6.1 Autorização para a cópia experimental
 
 João Pedro Pina Neves, responsável pela elaboração e adaptação do material, autoriza sua disponibilização no repositório público e a redistribuição de cópias da versão utilizada no experimento, com identificação da autoria e preservação das referências.
 
-Ao redistribuir a cópia experimental, deve ser mantida sua identificação como material didático adaptado para a pesquisa. Não se deve apresentar uma versão modificada como se fosse a cópia original utilizada na coleta.
+Ao redistribuir a cópia experimental, deve ser mantida sua identificação como material didático adaptado para a pesquisa. Uma versão modificada não deve ser apresentada como se fosse a cópia original utilizada na coleta.
 
-Esta autorização:
+Essa autorização abrange somente o conteúdo de autoria do responsável pela adaptação. Não concede direitos sobre as publicações utilizadas como fontes, não autoriza sua reprodução integral e não implica endosso do material pelos autores dessas publicações.
 
-- abrange o conteúdo de autoria do responsável pela adaptação;
-- não concede direitos sobre as publicações de terceiros utilizadas como fontes;
-- não autoriza a reprodução integral dessas publicações;
-- não implica endosso do material pelos autores das fontes consultadas;
-- não atribui automaticamente a mesma autorização aos dados, scripts ou demais arquivos do repositório.
+### 6.2 Exclusão do PDF do escopo da licença MIT
 
-A autorização de redistribuição aqui registrada não equivale à adoção de uma licença padronizada, como MIT ou Creative Commons. Caso uma licença seja posteriormente adotada, seu nome, texto e escopo deverão ser explicitados no repositório.
+A licença MIT descrita no arquivo `LICENSE`, na raiz do repositório, aplica-se somente aos scripts de análise expressamente abrangidos por ela.
 
-As condições de uso dos scripts, dos dados e dos demais materiais devem ser documentadas separadamente.
+**Este PDF não está abrangido pela licença MIT.** A licença dos scripts também não se estende automaticamente à base de dados, aos resultados estatísticos, ao questionário, ao protocolo ou aos demais documentos do repositório.
+
+### 6.3 Outras formas de reutilização
+
+A autorização de disponibilização e redistribuição da cópia experimental não equivale à concessão de uma licença aberta para outras formas de reutilização, como adaptação ou incorporação em outros materiais.
+
+As condições dessas outras formas de reutilização ainda precisam ser verificadas pelos responsáveis, respeitando eventuais direitos de terceiros. Na ausência de autorização aplicável, deve-se consultar o responsável pelo material.
+
+A disponibilidade pública do arquivo não deve ser interpretada como autorização irrestrita de uso.
 
 ## 7. Identificação da cópia
 
@@ -141,4 +147,4 @@ As datas das publicações consultadas não determinam a data de elaboração da
 
 A inclusão das referências e dos endereços permite identificar as fontes, mas não concede autorização para redistribuir seus textos, figuras ou outros conteúdos protegidos.
 
-As publicações de terceiros permanecem sujeitas às respectivas condições de uso. A autorização concedida para o material adaptado não substitui essas condições.
+As publicações de terceiros permanecem sujeitas às respectivas condições de uso. A autorização concedida para o material adaptado e a licença MIT dos scripts não substituem essas condições.
