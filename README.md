@@ -305,12 +305,35 @@ A base pública utiliza identificadores codificados e não inclui essas informa�
 
 Os dados editoriais definitivos, o DOI do artigo e o endereço permanente da versão do repositório devem ser acrescentados quando disponíveis. Não se atribui ao manuscrito um DOI ou ano de publicação ainda não confirmado.
 
-## 10. Condições de uso e direitos de terceiros
+## 10. Licenciamento e condições de reutilização
 
-Este README não concede, por si só, uma licença de reutilização. As condições de uso dos scripts, dados e materiais devem ser estabelecidas pelos responsáveis em arquivos de licença apropriados.
+### Scripts de análise
 
-A licença do artigo não deve ser presumida como licença automática de todos os materiais deste repositório.
+O script `analysis_public.py` está disponibilizado sob a licença MIT,
+conforme o arquivo LICENSE.
 
-O material didático foi adaptado por João Pedro Pina Neves a partir de fontes identificadas em `materials/material_de_referencia.md`. Essa identificação não transfere direitos sobre as publicações utilizadas como fontes nem autoriza automaticamente sua redistribuição.
+Essa licença também se aplica a outros scripts de análise que sejam
+explicitamente identificados como licenciados sob MIT.
 
-A definição das licenças e a confirmação das condições de redistribuição do PDF constituem uma etapa documental separada. Nenhuma autorização de terceiros é presumida neste README.
+### Dados, resultados e materiais experimentais
+
+A licença MIT não abrange:
+
+- a base de dados desidentificados;
+- os arquivos de resultados estatísticos;
+- o PDF de referência;
+- o questionário e o protocolo experimental;
+- os demais documentos e materiais, salvo indicação expressa.
+
+As condições de reutilização desses conteúdos ainda precisam ser
+verificadas pelos responsáveis, considerando as condições de consentimento
+e eventuais direitos de terceiros.
+
+Sua disponibilização pública não deve ser interpretada como concessão
+automática de uma licença aberta de reutilização.
+
+### Fontes de terceiros
+
+As publicações utilizadas como fontes permanecem sujeitas às respectivas
+condições de uso. A licença dos scripts não concede direitos sobre essas
+publicações.
